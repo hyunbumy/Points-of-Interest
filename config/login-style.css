@@ -1,0 +1,53 @@
+body {
+    background-color:#f5f6f7;
+}
+#wrapper {
+    margin-top:10%;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    text-align:center;
+}
+#header {
+    margin-bottom:2em;
+    color:#007bff;
+}
+#form-set {
+    border:1px solid threedface;
+    border-bottom-width: 0px;
+    margin-bottom:2em;
+}
+#form-set .form-group {
+    margin-bottom:0;
+    border-bottom:1px;
+    border-bottom-color:threedface;
+    border-bottom-style:solid;
+    padding:11px;
+    background-color:#ffffff;
+}
+.form-group .form-control {
+    border-width:0;
+}
+.errormsg {
+    color:red;
+    font-size:70%;
+}
+.create-account-callout {
+    margin-top:1em;
+}
+.login-callout {
+    margin-top:1em;
+}
+button {
+    width:100%;
+}
+@media (min-width:768px) {
+    #wrapper {
+        width:40%;
+    }
+}
+@media (min-width:992px) {
+    #wrapper {
+        width:30%;
+    }
+}
